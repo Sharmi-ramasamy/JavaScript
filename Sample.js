@@ -35,14 +35,14 @@
 
 
 
-// let iceCream = "chocolate";
-// if (iceCream === "chocolate") {
-//   alert("Yay, I love chocolate ice cream!");
-// } else {
-//   alert("Awwww, but chocolate is my favorite…");
-// }
+let iceCream = "chocolate";
+if (iceCream === "chocolate") {
+  alert("Yay, I love chocolate ice cream!");
+} else {
+  alert("Awwww, but chocolate is my favorite…");
+}
 
-// let d=prompt("enter the data");
+let d=prompt("enter the data");
 
 const name='mp';
 const value=2752;
