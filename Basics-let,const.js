@@ -117,3 +117,5 @@ numbers();
 
 // Block level - const and let  Variables
 
+const dep={name:"react",deptname:"LAMP"};
+console.log("department:" + dep.deptname)

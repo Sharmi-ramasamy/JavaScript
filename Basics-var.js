@@ -66,3 +66,50 @@ myFunc();
 // }
 // myFunc();
 
+
+// you can actually declare a variable with var after you initialize it and it will still work.
+myName = 'Chris';
+
+function logName() {
+  console.log(myName);
+}
+
+logName();
+
+var myName;                     // var HOISTING
+console.log(typeof myName);    // to find the type of data- typeof is used
+
+
+
+
+var p=1;
+function nums(){
+    var p=s=2;
+}
+nums();
+console.log(p,s);
+console.log("Type Of P is:" + typeof(p));
+
+// variables can be numbers,strings,booleans
+
+// Booleans 
+
+let test = 1 < 3;
+console.log("Given condition is :" , test);
+
+
+// Array
+
+let myNameArray=['M','S','P'];
+let myNumArray=[1,2,3];
+console.log("Name Array:" + myNameArray);
+console.log("Num Array:" + myNumArray);
+console.log("first name is:" + myNameArray[0]);
+console.log("second number is:" + myNumArray[1]);
+console.log("Type:" + typeof(myNameArray));
+console.log("Type:" + typeof(myNumArray));
+
+// Objects
+
+let data={name:"XYZ" , weight:50};
+console.log("name:" + data.name);
