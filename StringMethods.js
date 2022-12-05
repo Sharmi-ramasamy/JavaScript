@@ -102,3 +102,25 @@ console.log(greet.trim());
 console.log(greet.trimEnd());
 
 console.log(greet.trimStart());
+
+
+// padEnd()
+
+let padAtEnd='Aspire Systems';
+console.log(padAtEnd.padEnd(25,'*'));
+let num="2752";
+console.log(num.padEnd(6,"@"));                 // if not character mentioned it will leave a white space
+
+let padAtStart='Aspire Systems';
+console.log(padAtStart.padStart(28,"#"));
+
+
+// toUpperCase()
+
+let convert="aspire System";
+console.log(convert.toUpperCase());
+
+// toLowerCase()
+
+let convert1="ASPIre Systems";
+console.log(convert1.toLowerCase());
