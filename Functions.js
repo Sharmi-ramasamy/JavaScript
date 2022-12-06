@@ -5,7 +5,7 @@
    // rather than having to type out the same code multiple times.
 
 
-   // Build-iin browser function
+   // Build-in browser function
 
    const myNumber = Math.random(1,2);
    console.log(myNumber);
@@ -125,41 +125,41 @@ console.log(getArea(2,3));
  console.log(store);
  
 
-// function three() {
-//    console.log('Aspire');
-//    function four() {
-//       console.log('Systems');
-//       return 'Aspire Systems'
-//    }
-//    return four()
-// }
+function three() {
+   console.log('Aspire');
+   function four() {
+      console.log('Systems');
+      return 'Aspire Systems'
+   }
+   return four()
+}
 // // three(); 
 // // return three();
 // console.log(three()); 
-// const five= three;
-// five;
+const five= three();
+console.log(five);
 
-// function one() {
-//    console.log('ui');
-//    function h4() {
-//       console.log('jkil');
-//    }
-//    return h4
-// }
-// one()()
+function fun() {
+   console.log('Lamp');
+   function fun1() {
+      console.log('React');
+   }
+   return fun1();
+}
+ fun();
 
 
-// function num() {
-//    console.log('one');
-// }
-// num()
-// function num1() {
-//    console.log('two');
-// }
-// num1();
+function num() {
+   console.log('one');
+}
+num()
+function num1() {
+   console.log('two');
+}
+num1();
 
-// const num6=num1;
-// num6();
+const num6=num1;
+num6();
 
 
 

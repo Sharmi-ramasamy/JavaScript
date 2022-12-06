@@ -1,0 +1,18 @@
+aside {
+    width: 300px; 
+    height:300px;
+    margin: 20px;
+    border  : 1px solid;
+    padding-right: 10px;
+    background-color:bisque;
+    border-radius: 10px;
+    display: inline-block; 
+   
+}
+
+
+body {
+    background-color: pink;
+}
+
+
