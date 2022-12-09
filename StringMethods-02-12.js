@@ -83,62 +83,10 @@ let change="To be or not to be";
 change=change.replaceAll('be','code');
 console.log(change);
 
-// without updating orginal text, changing it temporarily iin another variable
+// without updating orginal text, changing it temporarily in another variable
 
 let items="Google";
 let modify=items.replace('Go','To');
 console.log(modify);
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// creating string
-
- // a. String primitive & string object
- const string1=new String("Aspire - String Object");       // new keyword is used 
- console.log(string1);
- 
- const string3=String("I am also String Primitive");
- console.log(string3);
- 
- const string2="I am String primitive";
- console.log(string2);
- 
- // b. eval()- treat the data as code 
- 
- const s1 = "2 + 2"; // creates a string primitive
- const s2 = new String("2 + 2"); // creates a String object
- console.log(eval(s1)); // returns the number 4
- console.log(eval(s2)); // returns the string "2 + 2"
- 
- // In eval String Object can be get converted into String primitives by using valueOf() method
- const s3=new String("3+3");
- console.log(eval(s3.valueOf()));
- 
- // Character Access - charAt & index value
- 
- let name="Aspire Systems";
- console.log(name[1]);
- console.log(name.charAt(12));
- 
- //  Long Literal Strings
- 
- const longString =
-   "This is a very long string which needs" +
- "to wrap across multiple lines because" +
- "otherwise my code is unreadable";
- console.log(longString);
- 
- // instead of using + operator to add the long string together 
- // use backslash operator (\)
- // at the end of each line to indicate that the string will continue on the next line. 
- // Make sure there is no space or any other character after the backslash ie,
- 
- const longString2=
-   "\'This is a very long string which needs " +
-   "to wrap across multiple lines because " +
-   "otherwise my code is unreadable.\'";
-   console.log(longString2);
- 
- 
-   

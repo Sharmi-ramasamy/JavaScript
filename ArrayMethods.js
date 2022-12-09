@@ -15,12 +15,6 @@ let msg=['Hi'];
 let add=msg.concat(['Welcome']);
 console.log(add);
 
-// let numm=[1,2];
-// let nums=[3,4];
-// let adds=numm.concat(nums);
-// console.log(adds);
-// nums[1].push(10);
-// console.log(adds);
 
 
 const num1 = [[1]];
@@ -184,7 +178,3 @@ console.log(ascen.sort());
 let str=[1,8,'msp','ps',2752];
 console.log(str.toString());
 
-// values()
-
-// let val=['AB','CD','EFG'];
-// console.log(val.values());

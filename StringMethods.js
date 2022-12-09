@@ -60,11 +60,11 @@ console.log(`Repeat the sentence ${sentence11} 10 times: ${sentence11.repeat(10)
 // replace()
 
 let sentence12="Mozilla with Mozilla";
-console.log(`replace the word ${sentence12} with ${sentence12.replace('Moz','Van')}`);
+console.log(`replace the word ${sentence12} as ${sentence12.replace('Moz','Van')}`);
 
 // replaceAll()
 let sentence13="Mozilla with Mozilla";
-console.log(`replace the word ${sentence12} with ${sentence13.replaceAll('Moz','Van')}`);
+console.log(`replace the word ${sentence12} as ${sentence13.replaceAll('Moz','Van')}`);
 
 
 // slice()
@@ -93,6 +93,12 @@ console.log(strs.substring(1,6));
 let str=new String("Aspire Systems");
 console.log(str);
 console.log(str.toString());
+console.log(typeof str);
+
+const dogNames = ['Rocket','Flash','Bella','Slugger'];
+dogNames.toString(); // Rocket,Flash,Bella,Slugger
+console.log(dogNames);
+console.log(typeof dogNames);
 
 // trim()
 
